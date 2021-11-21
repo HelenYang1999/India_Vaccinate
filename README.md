@@ -249,7 +249,6 @@ def draw_chart1(result1):
 
 可视化结果如下，可视化结果是html格式的，结果展示图保存在result文件夹下。
 
-![微信截图_20210608135239](C:\Users\lin\Desktop\微信截图_20210608135239.png)
 
 2）印度每日三种类型疫苗的使用情况用折线图显示，代码如下：
 
@@ -272,7 +271,7 @@ def draw_chart2(result2):
 
 可视化结果如下。
 
-![QQ截图20210608140211](C:\Users\lin\Desktop\QQ截图20210608140211.png)
+
 
 3）对截止到5.31日印度各个州的累积疫苗接种情况采用两种形式的图显示。
 
@@ -294,7 +293,6 @@ def draw_chart3(result3):
     c.render("result/result3.html")
 ```
 
-![QQ截图20210608140502](C:\Users\lin\Desktop\QQ截图20210608140502.png)
 
 ②第二种是地图，结合地图的形式，并以不同的颜色将接种人数画出来，更直接清晰，代码如下：
 
@@ -336,7 +334,6 @@ def draw_Map(result):
 
 可视化结果如下：
 
-![QQ截图20210608140601](C:\Users\lin\Desktop\QQ截图20210608140601.png)
 
 4）将印度接种人数前10的州的数据以象形状图显示，并且采用自定义图片，将图片从png格式转换成base64编码，保存在symbol.json文件中。代码如下。
 
@@ -379,7 +376,6 @@ def draw_chart4(result4):
     c.render("result/result4.html")
 ```
 
-![QQ截图20210608141029](C:\Users\lin\Desktop\QQ截图20210608141029.png)
 
 5）将印度接种人数最后10个州的数据以漏斗图的形式显示，代码如下：
 
@@ -404,7 +400,6 @@ def draw_chart5(result5):
     c.render("result/result5.html")
 ```
 
-![QQ截图20210608141457](C:\Users\lin\Desktop\QQ截图20210608141457.png)
 
 6）将印度各州男女（变性人）的接种总数以柱状图显示，代码和结果图如下。
 
@@ -430,7 +425,6 @@ def draw_chart6(result6):
     c.render("result/result6.html")
 ```
 
-![QQ截图20210608141840](C:\Users\lin\Desktop\QQ截图20210608141840.png)
 
 7）将印度累计接种情况以饼状图显示，可以发现接种率还不到10%，代码和结果图如下。
 
@@ -452,7 +446,6 @@ def draw_chart7(result7):
     c.render("result/result7.html")
 ```
 
-![QQ截图20210608141910](C:\Users\lin\Desktop\QQ截图20210608141910.png)
 
 8）将印度各州每日的接种年龄分布比例以柱状图显示，代码和结果图如下：
 
@@ -482,5 +475,4 @@ def draw_chart8(result8):
     c.render("result/result8.html")
 ```
 
-![QQ截图20210608142052](C:\Users\lin\Desktop\QQ截图20210608142052.png)
 
